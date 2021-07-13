@@ -1,0 +1,15 @@
+ //Just note
+
+let p = new Promise(function(resolve, reject){
+      if(a = ture){
+        resolve('you win ')
+      }else{
+        reject('error')
+      }
+})
+
+
+p.then(function(message){consolo.log(message)})
+ .catch(function(message){consolo.log(message)})
+ 
+ //Just note
